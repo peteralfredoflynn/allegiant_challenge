@@ -2,7 +2,7 @@
 
 ## Description
 An API to Create, Update, Destroy, and List Customer Data as well as a 
-browser to search customer data by name and see customer details. 
+front end web app to search customer data by name.
 
 (Done as a code challenge for Allegiant Airlines)
 
@@ -27,5 +27,3 @@ Check it out live at https://customer-browser.herokuapp.com
 ###### Create a new customer: See live api for details on json format
 ##### https://customer-browser.herokuapp.com/api/customers/23
 ###### Update or delete a customer 
-
-
