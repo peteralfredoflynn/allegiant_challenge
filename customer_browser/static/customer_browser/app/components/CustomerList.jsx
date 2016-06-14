@@ -65,12 +65,12 @@ var CustomerList = React.createClass({
     }
     function renderNextPageIcon() {
       if (next) {
-        return <a href="#"><span onClick={self.nextPage} className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>;
+        return <a href="#"><span onClick={self.nextPage} className="glyphicon glyphicon-chevron-right" aria-hidden="true">NEXT</span></a>;
       }
     }
     function renderPreviousPageIcon() {
       if (previous) {
-        return <a href="#"><span onClick={self.prevPage} className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>;
+        return <a href="#"><span onClick={self.prevPage} className="glyphicon glyphicon-chevron-left" aria-hidden="true">PREVIOUS</span></a>;
       }
     }
 

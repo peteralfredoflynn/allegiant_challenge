@@ -256,7 +256,11 @@
 	        return React.createElement(
 	          'a',
 	          { href: '#' },
-	          React.createElement('span', { onClick: self.nextPage, className: 'glyphicon glyphicon-chevron-right', 'aria-hidden': 'true' })
+	          React.createElement(
+	            'span',
+	            { onClick: self.nextPage, className: 'glyphicon glyphicon-chevron-right', 'aria-hidden': 'true' },
+	            'NEXT'
+	          )
 	        );
 	      }
 	    }
@@ -265,7 +269,11 @@
 	        return React.createElement(
 	          'a',
 	          { href: '#' },
-	          React.createElement('span', { onClick: self.prevPage, className: 'glyphicon glyphicon-chevron-left', 'aria-hidden': 'true' })
+	          React.createElement(
+	            'span',
+	            { onClick: self.prevPage, className: 'glyphicon glyphicon-chevron-left', 'aria-hidden': 'true' },
+	            'PREVIOUS'
+	          )
 	        );
 	      }
 	    }

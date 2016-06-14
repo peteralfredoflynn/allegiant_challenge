@@ -4,6 +4,13 @@
 An API to Create, Update, Destroy, and List Customer Data as well as a 
 front end web app to search customer data by name.
 
+The front end is built in ReactJS and compiled into bundle.js before 
+deployment. All jsx files are for reference only and are not actually 
+required. Almost all front end files are found at customer_browser/static/customer_browser.
+
+A single html Django template is still used in order to keep the project 
+served together. index.html is located in cutomer_browser/templates/customer_browser._
+
 (Done as a code challenge for Allegiant Airlines)
 
 Check it out live at https://customer-browser.herokuapp.com
