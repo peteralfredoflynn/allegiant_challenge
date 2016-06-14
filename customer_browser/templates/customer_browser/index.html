@@ -1,0 +1,17 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'customer_browser/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'customer_browser/css/main.css' %}" />
+</head>
+<body>
+    <div id="app"></div>
+    <script src="{% static "customer_browser/js/jquery-2.2.3.min.js" %}"></script>
+    <script src={% static "customer_browser/js/bootstrap.min.js"%}></script>
+    <script src={% static "customer_browser/public/bundle.js"%}></script>
+</body>
+</html>
