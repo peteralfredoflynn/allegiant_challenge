@@ -6,6 +6,8 @@ browser to search customer data by name and see customer details.
 
 (Done as a code challenge for Allegiant Airlines)
 
+Check it out live at https://customer-browser.herokuapp.com
+
 ### API GET Endpoints
 ##### https://customer-browser.herokuapp.com/api/customers
 ###### Lists all customers paginated 20 at a time
@@ -27,6 +29,3 @@ browser to search customer data by name and see customer details.
 ###### Update or delete a customer 
 
 
-Check it out live at https://customer-browser.herokuapp.com
-
-See the API at https://customer-browser.herokuapp.com/api/customers
