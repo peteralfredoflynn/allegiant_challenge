@@ -28,3 +28,5 @@ browser to search customer data by name and see customer details.
 
 
 Check it out live at https://customer-browser.herokuapp.com
+
+See the API at https://customer-browser.herokuapp.com/api/customers
