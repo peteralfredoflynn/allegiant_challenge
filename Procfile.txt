@@ -1,0 +1,1 @@
+web: gunicorn allegiant_project.wsgi —log.file -
